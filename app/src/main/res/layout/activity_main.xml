@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center|top">
+
+    <TextView
+        android:id="@+id/output_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Animal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/cat_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            android:text="Cat"/>
+
+        <Button
+            android:id="@+id/dog_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            android:text="Dog"/>
+
+        <Button
+            android:id="@+id/frog_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            android:text="Frog"/>
+
+        <Button
+            android:id="@+id/rabbit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            android:text="Rabbit"/>
+
+    </LinearLayout>
+
+</LinearLayout>

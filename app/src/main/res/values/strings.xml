@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EnumTem</string>
+    <string name="dog">Dog</string>
+    <string name="cat">Cat</string>
+    <string name="frog">Frog</string>
+    <string name="rabbit">Rabbit</string>
+</resources>

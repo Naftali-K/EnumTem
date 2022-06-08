@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EnumTem</string>
+    <string name="dog">Собака</string>
+    <string name="cat">Кошка</string>
+    <string name="frog">Лягушка</string>
+    <string name="rabbit">Кролик</string>
+</resources>
